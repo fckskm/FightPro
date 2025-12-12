@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FightPro - Главная</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <h1 class="logo animated">FightPro</h1>
+      <nav>
+        <a href="index.html" class="nav-link active">Главная</a>
+        <a href="about.html" class="nav-link">О клубе</a>
+        <a href="contact.html" class="nav-link">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Сила. Скорость. Дисциплина.</p>
+          <h2>Добро пожаловать в FightPro</h2>
+          <p>Клуб единоборств для всех уровней подготовки в атмосфере уважения и драйва.</p>
+          <a class="btn primary" href="#trial">Записаться сейчас</a>
+        </div>
+        <div class="hero-media">
+          <a href="IMG/head.JPG" class="media-link">
+            <img src="IMG/head.JPG" alt="Бойцы" class="hero-img fade-in" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Почему FightPro</h2>
+        <div class="feature-grid">
+          <div class="card feature animated rise">
+            <a href="IMG/training.JPG" class="media-link">
+              <img src="IMG/training.JPG" alt="Тренировки" />
+            </a>
+            <h3>Эффективные тренировки</h3>
+            <p>Профессиональные тренеры, продуманная нагрузка и техника в безопасности.</p>
+          </div>
+          <div class="card feature animated rise delay-1">
+            <a href="IMG/competishion.JPG" class="media-link">
+              <img src="IMG/competishion.JPG" alt="Соревнования" />
+            </a>
+            <h3>Соревнования и события</h3>
+            <p>Регулярные внутренние спарринги и подготовка к турнирам любого уровня.</p>
+          </div>
+          <div class="card feature animated rise delay-2">
+            <a href="IMG/friend.JPG" class="media-link">
+              <img src="IMG/friend.JPG" alt="Команда" />
+            </a>
+            <h3>Дружная команда</h3>
+            <p>Поддерживающее комьюнити и мотивация от единомышленников.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trial" id="trial">
+      <div class="container">
+        <div class="card trial-card">
+          <div class="trial-header">
+            <h2>Запишитесь на бесплатную тренировку</h2>
+            <p>Оставьте контакты — подберём удобное время и программу.</p>
+          </div>
+          <form class="trial-form">
+            <label>
+              Имя и фамилия
+              <input type="text" name="fullName" placeholder="Иван Иванов" required />
+            </label>
+            <label>
+              Номер телефона
+              <input type="tel" name="phone" placeholder="+7 (999) 123-45-67" required />
+            </label>
+            <label>
+              Комментарий
+              <textarea name="comment" rows="3" placeholder="Цели, предпочтения по дисциплине" required></textarea>
+            </label>
+            <button type="submit" class="btn primary full">Оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team">
+      <div class="container">
+        <h2 class="section-title">Наша команда</h2>
+        <div class="team-grid">
+          <div class="card coach-card">
+            <img src="IMG/Frame 1.jpg" alt="Алексей Данилов" class="coach-img" />
+            <h3>Дудаев Таймураз</h3>
+            <p class="coach-discipline">Кикбоксинг</p>
+            <p>Мастер спорта по АРБ, Мастер спорта по К-1, Мастер спорта по Вьет Во Дао, Тренерский стаж более 15 лет, среди воспитанников многократные чемпионы России</p>
+          </div>
+          <div class="card coach-card">
+            <img src="IMG/Frame 2.jpg" alt="Мария Кравцова" class="coach-img" />
+            <h3>Межиев Беслан</h3>
+            <p class="coach-discipline">ММА</p>
+            <p>Кандидат мастера спорта по Кикбоксингу, 2-х кратный чемпион России по К-1 и тайскому боксу, Победитель «Кубка Федерации К-1 в России»</p>
+          </div>
+          <div class="card coach-card">
+            <img src="IMG/Frame 3.jpg" alt="Илья Тарасов" class="coach-img" />
+            <h3>Конотопов Артём</h3>
+            <p class="coach-discipline">Бокс</p>
+            <p>Мастер спорта по боксу, Мастер спорта по кикбоксингу, Тренерский стаж с 2010 года (более 15 лет)</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <section class="section feedback">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="section-title">Отзывы</h2>
+          <p>Поделитесь впечатлением или узнайте, что говорят наши ученики.</p>
+        </div>
+        <div class="feedback-grid">
+          <form class="card feedback-form">
+            <label>
+              Имя
+              <input type="text" name="reviewName" placeholder="Ваше имя" required />
+            </label>
+            <label>
+              Комментарий
+              <textarea name="reviewMessage" rows="4" placeholder="Как прошла тренировка?" required></textarea>
+            </label>
+            <div class="rating-group">
+              <span>Количество звёзд</span>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="stars" value="5" required />
+                <label for="star5" title="5 звёзд">★</label>
+                <input type="radio" id="star4" name="stars" value="4" />
+                <label for="star4" title="4 звезды">★</label>
+                <input type="radio" id="star3" name="stars" value="3" />
+                <label for="star3" title="3 звезды">★</label>
+                <input type="radio" id="star2" name="stars" value="2" />
+                <label for="star2" title="2 звезды">★</label>
+                <input type="radio" id="star1" name="stars" value="1" />
+                <label for="star1" title="1 звезда">★</label>
+              </div>
+            </div>
+            <button type="submit" class="btn primary">Оставить отзыв</button>
+          </form>
+          <div class="reviews">
+            <div class="card review">
+              <div class="review-top">
+                <h3>Сергей П.</h3>
+                <span class="stars">★★★★★</span>
+              </div>
+              <p>Тренеры внимательно следят за техникой и безопасностью. Атмосфера дружелюбная, но дисциплина на месте.</p>
+            </div>
+            <div class="card review">
+              <div class="review-top">
+                <h3>Анна К.</h3>
+                <span class="stars">★★★★☆</span>
+              </div>
+              <p>Начала с нуля — за пару месяцев стала чувствовать силу и уверенность. Особенно понравились функциональные тренировки.</p>
+            </div>
+            <div class="card review">
+              <div class="review-top">
+                <h3>Дмитрий В.</h3>
+                <span class="stars">★★★★★</span>
+              </div>
+              <p>Удобный зал, современное оборудование. Есть спарринги для подготовки к турнирам, что очень ценно.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 FightPro. Все права защищены.</p>
+    </div>
+  </footer>
+  <script src="lightbox.js"></script>
+</body>
+</html>

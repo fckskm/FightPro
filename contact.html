@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FightPro - Контакты</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <h1 class="logo animated">FightPro</h1>
+      <nav>
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link">О клубе</a>
+        <a href="contact.html" class="nav-link active">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section contact-hero">
+      <div class="container contact-hero-grid">
+        <div class="card contact-card">
+          <p class="eyebrow">Контакты</p>
+          <h2>Свяжитесь с нами</h2>
+          <p>Мы открыты для вопросов о тренировках, расписании и индивидуальных программах.</p>
+          <p class="contact-line"><strong>Адрес:</strong> Москва, Полярная улица, 33с3</p>
+          <p class="contact-line"><strong>Телефон:</strong> +7 910 003 5131</p>
+          <p class="contact-line"><strong>Email:</strong> info@fightpro.ru</p>
+          <p class="contact-line"><strong>Часы работы:</strong> Пн–Вс: 09:00–21:00</p>
+        </div>
+        <form class="card contact-form">
+          <h3>Напишите нам</h3>
+          <label>
+            Имя
+            <input type="text" name="name" placeholder="Ваше имя" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Сообщение
+            <textarea name="message" rows="4" placeholder="Ваш вопрос или запрос" required></textarea>
+          </label>
+          <button type="submit" class="btn primary">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact-info">
+      <div class="container contact-grid">
+        <div class="card contact-card">
+          <h2>Как нас найти</h2>
+          <p class="contact-line"><strong>Адрес:</strong> Москва, Полярная улица, 33с3</p>
+          <p class="contact-line"><strong>Телефон:</strong> +7 910 003 5131</p>
+          <p class="contact-line"><strong>Часы работы:</strong> Пн–Вс: 09:00–21:00</p>
+          <p class="contact-line"><strong>Email:</strong> info@fightpro.ru</p>
+        </div>
+        <div class="card map-card">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?ll=37.652000%2C55.882000&z=16&text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2033%D1%813"
+            allowfullscreen
+            loading="lazy"
+            title="Карта FightPro"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 FightPro. Все права защищены.</p>
+    </div>
+  </footer>
+  <script src="lightbox.js"></script>
+</body>
+</html>
